@@ -24,20 +24,28 @@ nav .menu {
 }
 
 nav .menu li a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   color: #183354;
   font-size: 14px;
   font-weight: 500;
-  transition: all 0.3s ease;
 }
 
-nav .menu li a.active, nav .menu li a .active, nav .menu li a:hover {
-  color: #f4796c;
-}
-
-nav .menu li a i {
+.menu li a i {
+  transition: transform 0.3s ease, color 0.3s ease;
   color: #545e69;
   font-weight: 700;
   font-size: 22px;
+}
+
+.menu li a:hover, nav .menu li a.active , nav .menu li a i.active {
+  color: #f4796c;
+}
+
+.menu li a:hover i {
+  color: #f4796c;
+  transform: rotate(180deg);
 }
 
 nav form input {
@@ -71,6 +79,8 @@ nav form button i:hover {
   font-size: 30px;
   display: none;
 }
+
+
 
 @media screen and (max-width: 1200px) {
   nav .menu {
