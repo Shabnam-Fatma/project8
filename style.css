@@ -48,6 +48,32 @@ nav .menu li a {
   transform: rotate(180deg);
 }
 
+nav .menu li {
+  position: relative;
+}
+
+nav .menu li .dropdown {
+  background-color: #ffffff;
+  padding: 20px 60px 5px 20px;
+  border: 1px solid #f5f5f5;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+nav .menu li:hover .dropdown {
+  top: 250%;
+  opacity: 1;
+  visibility: visible;
+}
+
+nav .menu li .dropdown li {
+  margin-bottom: 18px;
+}
+
 nav form input {
   padding: 15px 20px;
   border: 1px solid #d9d9d9;
@@ -69,6 +95,7 @@ nav form button i {
   color: #545e69;
   margin-right: 5px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 nav form button i:hover {
