@@ -64,7 +64,7 @@ nav form button {
 }
 
 nav form button i {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 100;
   color: #545e69;
   margin-right: 5px;
@@ -73,6 +73,11 @@ nav form button i {
 
 nav form button i:hover {
     color: #f4796c;
+}
+
+nav form button i span {
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .bar {
