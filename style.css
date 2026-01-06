@@ -163,6 +163,30 @@ aside {
   font-weight: 900;
 }
 
+.aside-container .aside-menu li a:hover i {
+  color: #f4796c;
+  transform: rotate(180deg);
+}
+
+.aside-container .aside-menu li {
+  position: relative;
+}
+
+.aside-container .aside-menu li .dropdown {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.aside-container .aside-menu li:hover .dropdown {
+  top: 255%;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 
 /* ----------Media Queries---------- */
