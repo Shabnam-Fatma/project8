@@ -132,6 +132,11 @@ header {
 aside {
   position: absolute;
   top: 0;
+  right: -100%;
+  transition: all 0.5s ease-in-out;
+}
+
+aside.open {
   right: 0;
 }
 
@@ -207,6 +212,8 @@ aside {
 .aside-container .social-icons i {
   padding: 12px;
   border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  color: #183354;
 }
 
 /* ----------Media Queries---------- */
