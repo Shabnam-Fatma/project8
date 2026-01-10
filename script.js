@@ -10,4 +10,5 @@ menuBar.addEventListener("click", () => {
 
 menuClose.addEventListener("click", () => {
   asidePage.classList.remove("open");
+  overlay.classList.remove("active")
 });
