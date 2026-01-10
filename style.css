@@ -134,6 +134,7 @@ aside {
   top: 0;
   right: -100%;
   transition: all 0.5s ease-in-out;
+  z-index: 1001;
 }
 
 aside.open {
@@ -214,6 +215,28 @@ aside.open {
   border: 1px solid #d9d9d9;
   border-radius: 5px;
   color: #183354;
+}
+
+
+
+
+/* Overlay hidden by default */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* ----------Media Queries---------- */
