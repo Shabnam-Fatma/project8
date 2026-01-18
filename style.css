@@ -129,24 +129,11 @@ header {
   position: relative;
 }
 
-/* aside {
-  position: absolute;
-  top: 0;
-  right: -100%;
-  transition: all 0.5s ease-in-out;
-  z-index: 1001;
-  display: none;
-}
-
-aside.open {
-  right: 0;
-  display: block;
-} */
-
 aside {
   position: absolute;
   top: 0;
   right: -100%;
+  transition: all 0.5s ease-in-out;
   z-index: 1001;
   display: none;
 }
