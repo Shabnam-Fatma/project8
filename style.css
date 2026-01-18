@@ -129,16 +129,31 @@ header {
   position: relative;
 }
 
-aside {
+/* aside {
   position: absolute;
   top: 0;
   right: -100%;
   transition: all 0.5s ease-in-out;
   z-index: 1001;
+  display: none;
 }
 
 aside.open {
   right: 0;
+  display: block;
+} */
+
+aside {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  z-index: 1001;
+  display: none;
+}
+
+aside.open {
+  right: 0;
+  display: block;
 }
 
 .aside-container {
@@ -216,9 +231,6 @@ aside.open {
   border-radius: 5px;
   color: #183354;
 }
-
-
-
 
 /* Overlay hidden by default */
 .overlay {
