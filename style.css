@@ -232,6 +232,7 @@ aside.open {
   background: rgba(0, 0, 0, 0.2);
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transition: opacity 0.3s ease;
   z-index: 1000;
 }
@@ -239,6 +240,7 @@ aside.open {
 .overlay.active {
   opacity: 1;
   visibility: visible;
+  pointer-events: all;
 }
 
 /* ----------Media Queries---------- */
