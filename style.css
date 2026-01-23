@@ -214,6 +214,10 @@ aside.open {
   top: 100%;
 }
 
+.aside-container .aside-menu .aside-list .dropdown-aside a {
+  margin-left: 30px;
+}
+
 .aside-container .social-icons {
   width: 100%;
   padding: 0 17px;
