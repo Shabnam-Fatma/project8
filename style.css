@@ -254,6 +254,13 @@ aside.open {
   pointer-events: all;
 }
 
+/* ----------MAIn--------- */
+
+.carousel-section {
+  padding: 60px 120px;
+}
+
+
 /* ----------Media Queries---------- */
 
 @media screen and (max-width: 1200px) {
