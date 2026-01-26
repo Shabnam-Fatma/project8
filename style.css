@@ -260,6 +260,10 @@ aside.open {
   padding: 60px 120px;
 }
 
+.carousel-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
 
 /* ----------Media Queries---------- */
 
