@@ -254,7 +254,7 @@ aside.open {
   pointer-events: all;
 }
 
-/* ----------MAIn--------- */
+/* ----------MAIN--------- */
 
 .carousel-section {
   padding: 60px 120px;
@@ -271,6 +271,13 @@ aside.open {
 .carousel-section .carousel-cards .carousel-card {
   width: 300px;
 }
+
+.carousel-section .carousel-cards .carousel-card .card-img img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
 
 /* ----------Media Queries---------- */
 
