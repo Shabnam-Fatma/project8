@@ -261,8 +261,15 @@ aside.open {
 }
 
 .carousel-cards {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  width: 100%;
+  max-width: 90vw;
+  margin: auto;
+  gap: 10px;
+}
+
+.carousel-section .carousel-cards .carousel-card {
+  width: 300px;
 }
 
 /* ----------Media Queries---------- */
