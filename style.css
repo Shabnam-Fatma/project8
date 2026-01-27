@@ -265,11 +265,13 @@ aside.open {
   width: 100%;
   max-width: 90vw;
   margin: auto;
-  gap: 10px;
+  overflow: hidden;
 }
 
 .carousel-section .carousel-cards .carousel-card {
   width: 300px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .carousel-section .carousel-cards .carousel-card .card-img img {
