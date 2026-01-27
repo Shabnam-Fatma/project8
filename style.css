@@ -270,14 +270,21 @@ aside.open {
 
 .carousel-section .carousel-cards .carousel-card {
   width: 300px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 .carousel-section .carousel-cards .carousel-card .card-img img {
   width: 300px;
   height: 400px;
   object-fit: cover;
+  border-radius: 5px;
+  position: relative;
+}
+
+.carousel-section .carousel-cards .carousel-card .img-text {
+  position: absolute;
+  bottom: 22.5%;
 }
 
 
