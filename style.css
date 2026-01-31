@@ -293,6 +293,12 @@ aside.open {
   border-radius: 5px;
 }
 
+.carousel-section .carousel-cards .carousel-card .tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 /* ----------Media Queries---------- */
 
