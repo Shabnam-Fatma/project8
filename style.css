@@ -272,6 +272,7 @@ aside.open {
   width: 300px;
   margin-left: 11px;
   margin-right: 11px;
+  position: relative;
 }
 
 .carousel-section .carousel-cards .carousel-card .card-img img {
@@ -279,12 +280,17 @@ aside.open {
   height: 400px;
   object-fit: cover;
   border-radius: 5px;
-  position: relative;
 }
 
 .carousel-section .carousel-cards .carousel-card .img-text {
   position: absolute;
-  bottom: 22.5%;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3px 5px;
+  background-color: #f4796c;
+  color: #fff;
+  border-radius: 5px;
 }
 
 
