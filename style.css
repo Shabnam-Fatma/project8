@@ -284,7 +284,7 @@ aside.open {
 
 .carousel-section .carousel-cards .carousel-card .img-text {
   position: absolute;
-  bottom: 12%;
+  bottom: 18%;
   left: 50%;
   transform: translateX(-50%);
   padding: 3px 5px;
@@ -298,6 +298,14 @@ aside.open {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 25px;
+}
+
+.carousel-section .carousel-cards .carousel-card .tips h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #183354;
+  font-weight: 600;
 }
 
 /* ----------Media Queries---------- */
