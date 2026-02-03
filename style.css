@@ -257,13 +257,13 @@ aside.open {
 /* ----------MAIN--------- */
 
 .carousel-section {
-  padding: 60px 120px;
+  /* padding: 60px 120px; */
 }
 
 .carousel-cards {
   display: flex;
   width: 100%;
-  max-width: 90vw;
+  /* max-width: 90vw; */
   margin: auto;
   overflow: hidden;
 }
