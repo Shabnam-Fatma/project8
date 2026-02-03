@@ -257,6 +257,11 @@ aside.open {
 /* ----------MAIN--------- */
 
 .carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   /* padding: 60px 120px; */
 }
 
@@ -268,7 +273,7 @@ aside.open {
   overflow: hidden;
 }
 
-.carousel-section .carousel-cards .carousel-card {
+/* .carousel-section .carousel-cards .carousel-card {
   width: 300px;
   margin-left: 11px;
   margin-right: 11px;
@@ -306,7 +311,7 @@ aside.open {
   font-size: 24px;
   color: #183354;
   font-weight: 600;
-}
+} */
 
 /* ----------Media Queries---------- */
 
