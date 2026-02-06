@@ -40,7 +40,9 @@ nav .menu li a {
 }
 
 .menu li a i {
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
   color: #545e69;
   font-weight: 700;
   font-size: 22px;
@@ -173,11 +175,13 @@ aside.open {
   color: #183354;
 }
 
-.aside-container .aside-menu, .aside-container .aside-menu .aside-list .dropdown-aside {
+.aside-container .aside-menu,
+.aside-container .aside-menu .aside-list .dropdown-aside {
   width: 100%;
 }
 
-.aside-container .aside-menu .aside-list, .aside-container .aside-menu .aside-list .dropdown-aside li {
+.aside-container .aside-menu .aside-list,
+.aside-container .aside-menu .aside-list .dropdown-aside li {
   padding: 8px;
   height: 50px;
   border: 1px solid #d9d9d9;
@@ -191,7 +195,8 @@ aside.open {
   justify-content: space-between;
 }
 
-.aside-container .aside-menu .aside-list a span, .aside-container .aside-menu .aside-list .dropdown-aside li a {
+.aside-container .aside-menu .aside-list a span,
+.aside-container .aside-menu .aside-list .dropdown-aside li a {
   margin-top: 7px;
 }
 
@@ -257,7 +262,7 @@ aside.open {
 /* ----------MAIN--------- */
 
 .carousel-section {
-  margin-top: 60px;
+  padding-top: 60px;
   width: 1300px;
   height: auto;
   width: 90vw;
@@ -270,6 +275,7 @@ aside.open {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0 0 100%;
 }
 
 .carousel-section .carousel-cards .carousel-card {
