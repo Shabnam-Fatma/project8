@@ -258,20 +258,18 @@ aside.open {
 
 .carousel-section {
   margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  /* padding: 60px 120px; */
+  width: 1300px;
+  height: auto;
+  width: 90vw;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
 }
 
 .carousel-cards {
   display: flex;
-  width: 100%;
-  max-width: 90vw;
-  margin: auto;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-section .carousel-cards .carousel-card {
