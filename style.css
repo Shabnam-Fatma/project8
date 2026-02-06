@@ -266,15 +266,13 @@ aside.open {
   width: 1300px;
   height: auto;
   width: 90vw;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
   overflow: hidden;
 }
 
 .carousel-cards {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex: 0 0 100%;
 }
 
